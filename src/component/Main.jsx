@@ -65,6 +65,21 @@ export const Main = (props) => {
     });
   }
 
+  // CREATE SONG
+
+  const createSong = (props) => {
+    axios
+    .post(`http://localhost:8885/songs`, {
+      name: name.current.value,
+      creator: userid,
+    })
+    .then(function (response) {
+      setPlay(play+1)
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }
 
   return (
     <div className={styles.container}>
