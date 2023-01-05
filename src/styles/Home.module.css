@@ -1,0 +1,48 @@
+.body {
+    background-image: url("../assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.text {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.route {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+.route a {
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #250B3F;
+    color: white;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.song {
+    position: absolute;
+    right: 300px;
+    bottom: 90px;
+    width: 500px;
+}
+
+.png1 {
+    position: absolute;
+    right: 800px;
+    top: 700px;
+    width: 100px;
+}
+
+.png2 {
+    position: absolute;
+    right: 300px;
+    top: 530px;
+    width: 80px;
+}
